@@ -22,3 +22,9 @@ map과 동일한 자료구조를 사용하므로 성능의 특성이 맵과 동�
 but 메모리를 많이 차지한다  
     
 ###### unordered_set & unordered_multiset  
+
+
+###### 결론  
+C++ 03 에서는 vector가 짱이다.
+C++ 11 이후 에서 효율적인 검색이 필요하다면 unordered_map 그 외는 vector
+       만약 메모리가 적은 환경이라면 vector
